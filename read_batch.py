@@ -2,10 +2,9 @@ import json
 from openai import OpenAI
 import pandas as pd
 
-key = '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'
-
+key = yourapikey
 client = OpenAI(
-    organization='org-WqTJdU0yN4FswRiFtWIKBNNq',
+    organization=yourorgid,
     api_key=key
     )
 
